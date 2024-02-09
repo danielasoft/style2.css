@@ -1,0 +1,35 @@
+/* type selector */
+p{
+    colour:blue
+
+}
+/* class selector */
+.highlight{
+    background-color: yellow;
+}
+/* id selector */
+#header{
+    font-size: 24px;
+}
+/* descendant selector */
+article p{
+    font-style: italic;
+
+}
+/* child selector */
+ul > li{
+    list-style: square;
+
+}
+/* adjacent sibling selector */
+h2 + p{
+    margin-top: 10px;
+}
+/* attribute selector */
+[type="text"]{
+    border: 1px solid;
+}
+
+
+
+
